@@ -1,19 +1,11 @@
-import MyTitle from "./components/MyTitle"
-import PokemonCards from "./components/PokemonCards"
+import PokemonCard from "./components/PokemonCard"
 
 function App() {
   return (
     <div>
-      <MyTitle />
+      <PokemonCard />
     </div>
   );
 }
 
-function PokemonCard() {
-  return
-  <div>
-    <PokemonCards />
-  </div>
-}
-
-export default App;
+export default App
