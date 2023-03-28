@@ -1,8 +1,9 @@
-import PokemonCard from "./components/PokemonCard"
+import PokemonCard from "./components/PokemonCard";
+import styles from "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="Bulbizar">
       <PokemonCard />
     </div>
   );

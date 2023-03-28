@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Pokemon';
+  src: url('./font/Pokemon\ Hollow.ttf') format('pokemon1'),
+    url('./font/Pokemon\ Solid.ttf') format('pokemon1');
+
+}
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -11,17 +19,24 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.Bulbizartxt {
+  font-size: 50px;
 }
 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
