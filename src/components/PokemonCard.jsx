@@ -1,8 +1,7 @@
 function PokemonCard() {
     const pokemon = pokemonList[0];
     return (
-        pokemon.imgSrc ? <figure><img src={pokemon.imgSrc} /> <figcaption>Bulbizar</figcaption></figure> : <p>???</p>
-    );
+        pokemon.imgSrc ? <figure><img src={pokemon.imgSrc} /> <figcaption>{pokemon.name}</figcaption></figure> : <figcaption>{pokemon.name} <p>???</p></figcaption>);
 }
 
 const pokemonList = [
