@@ -1,4 +1,4 @@
-function NavBar({ pokemonIndex, setPokemonIndex, PokemonList }) {
+function NavBar({ pokemonIndex, setPokemonIndex, pokemonList }) {
     // State
     // Comportement
     const handleClickNext = () => {
@@ -10,6 +10,9 @@ function NavBar({ pokemonIndex, setPokemonIndex, PokemonList }) {
         setPokemonIndex(pokemonIndex - 1);
         console.log(pokemonIndex);
     };
+
+    if (pokemonList[pokemonIndex].name === "pikachu")
+        alert('pika pika!');
 
     //Affichage
     return (
