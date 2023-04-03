@@ -6,12 +6,7 @@ import { useEffect } from "react";
 
 
 function App() {
-  useEffect(
-    () => {
-      alert('hello pokemon trainer :)')
-    },
-    [1]
-  )
+
   const [pokemonIndex, setPokemonIndex] = useState(0);
   return (
     <>
@@ -41,7 +36,8 @@ const pokemonList = [
     imgSrc: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
   },
   {
-    name: "Mew",
+    name: "mew",
+    imgSrc: "",
   }
 ];
 
